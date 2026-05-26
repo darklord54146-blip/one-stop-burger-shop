@@ -1,0 +1,17 @@
+{
+  "name": "one-stop-burger-shop",
+  "version": "1.0.0",
+  "description": "Responsive full-stack website for One Stop Burger Shop.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "restaurant",
+    "burger",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "MIT"
+}

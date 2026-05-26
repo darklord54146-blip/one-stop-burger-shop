@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: one-stop-burger-shop
+    env: docker
+    plan: free
+    healthCheckPath: /api/health
+    disk:
+      name: osbs-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: DB_PATH
+        value: /data/db.json
